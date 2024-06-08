@@ -2,18 +2,114 @@
     color: pink;
 }
 
+
 #greycol{
     color: gray;
 }
+
 
 div + div > p{
     color: red;
 }
 
+
 div + h3 + p{
     color: green;
 }
 
+
 .yellow{
     color: yellow;
 }
+
+
+
+
+
+
+
+.time{
+    color: red;
+}
+
+
+.time:hover{
+    color: blueviolet;
+}
+
+
+
+
+.noclass{
+    background-color: black;
+}
+
+
+.noclass:active{
+    background-color: aliceblue;
+}
+
+
+.day{
+    color: khaki;
+}
+
+
+th:first-child:focus{
+    background-color: darkslategrey;
+}
+
+
+
+  a:link {
+    color: red;
+  }
+
+  a:hover{
+    background-color: lightcoral;
+  }
+
+ 
+
+
+
+  
+
+
+
+
+
+
+
+
+td:last-child{
+    background-color: aqua;
+}
+
+
+.day:nth-child(even){
+    background-color: darkseagreen;
+}
+
+
+.day:nth-child(odd){
+    background-color: cadetblue;
+}
+
+
+tr:nth-child(odd){
+    background-color: blanchedalmond;
+}
+
+
+tr:nth-child(even){
+    background-color: red;
+}
+
+
+tr:nth-child(2){
+    background-color:blue ;
+}
+
+
+
